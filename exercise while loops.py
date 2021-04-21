@@ -102,23 +102,23 @@ if z >= 400:
 
 # repetition of exercise tickets number: structure
 
-porn_tickets = "there are only a number of tickets that are available:"
-porn_tickets = "you can enter 'quit' if you want to exit the program please"
+prime_tickets = "there are only a number of tickets that are available:"
+prime_tickets = "you can enter 'quit' if you want to exit the program please"
 
 while True:
-    age = input(porn_tickets)
+    age = input(prime_tickets)
 
     if age == 13:
         break
 
     if age < 3:
-        print("the porn ticket is free boy!")
+        print("the prime ticket is free boy!")
 
     elif age < 13:
-        print(f"the porn ticket will be 10 dollars boy!")
+        print(f"the prime ticket will be 10 dollars boy!")
 
     else:
-        (f"the porn ticket will be 15 dollars ")
+        (f"the prime ticket will be 15 dollars ")
 
 
 
